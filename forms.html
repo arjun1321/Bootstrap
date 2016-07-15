@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Forms</title>
+    
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <div class="container">
+        
+        <div class="page-header">
+            <h1>Bootstrap forms</h1>
+            <p class="lead">Let's work with some sexy, pre-styled forms, shall we?</p>
+        </div><!-- page-header -->
+        
+        <div class="row">
+            <div class="col-sm-6">
+                
+                <form action="">
+                    <div class="form-group">
+                        <label for="formName">Your name</label>
+                        <input type="text" id="formName" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="formEmail">Email address</label>
+                        <input type="email" id="formEmail" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="formMessage">Your message</label>
+                        <textarea id="formMessage" class="form-control" rows="4"></textarea>
+                    </div>
+                    
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox">Checkbox
+                        </label>
+                    </div>
+                    
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="formRadio">Radio input #1
+                        </label><br>
+                        <label>
+                            <input type="radio" name="formRadio">Radio input #2
+                        </label>
+                    </div>
+                    
+                    <button class="btn btn-default" type="submit">Submit</button>
+                </form>
+                
+            </div>
+            
+            <div class="col-sm-6">
+                
+                <form class="form-inline">
+                    
+                    <div class="form-group">
+                        <label for="loginEmail" class="sr-only">Email</label>
+                        <div class="input-group">
+                           <div class="input-group-addon">@</div>
+                            <input id="loginEmail" type="email" class="form-control" placeholder="email address">
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="loginPassword" class="sr-only">Password</label>
+                        <input id="loginPassword" type="password" class="form-control" placeholder="password">
+                    </div>
+                    
+                    <button class="btn btn-danger" type="submit">Submit</button>
+                </form>
+                
+            </div>
+        </div><!-- row -->
+        
+        <div class="row">
+            <div class="col-sm-6">
+                <form class="form-horizontal">
+                    
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">First name</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Last name</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+        
+    </div><!-- container -->      
+        
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
