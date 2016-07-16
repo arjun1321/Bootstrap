@@ -4,5 +4,16 @@ body {
 }
 
 .highlight {
-    background-color: aqua;
+     background-color: aqua;
+}
+
+.small-box {
+    width: 300px;
+}
+
+#scrollerBox {
+    position: relative;
+    height: 400px;
+    overflow: auto;
+    border: solid 1px #ccc;
 }
